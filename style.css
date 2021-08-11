@@ -1,0 +1,64 @@
+body{
+    font-family: Montserrat;
+    height: 100%;
+}
+
+.light-theme{
+    background: white url("img/main-bg.jpg") no-repeat;
+    color: black;
+}
+.dark-theme{
+    background: white url("img/main-bg-dark.jpg") no-repeat;
+    color: white;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20%;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    padding: 0;
+    background: white;
+    border: black 2px solid;
+    border-radius: 50%;
+}
+
+button{
+    border: 0;
+    background: transparent;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    height: 3em;
+    width: 100%;
+}
+
+footer p {
+    margin-left: 10px;
+}
+
+.light-theme footer {
+    background-color: white;
+}
+
+.dark-theme footer {
+    background-color: black;
+}
